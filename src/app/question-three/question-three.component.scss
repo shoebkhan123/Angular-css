@@ -1,0 +1,61 @@
+.arrange1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 350px;
+    grid-row-gap: 350px;
+    width: 1000px;
+    height: 1000px;
+    background-color: blue;
+    
+}
+.arrange1 div{
+    width: 100px;
+    height: 100px;
+    
+}
+
+
+
+
+
+.arrange2 {
+    width: 1000px;
+    height: 1000px;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 350px;
+    grid-row-gap: 350px;
+}
+.arrange2 div{
+    width: 100px;
+    height: 100px;
+}
+
+.arrange2 div:nth-child(1), .arrange1 div:nth-child(1) {
+    background-color: red;
+}
+.arrange2 div:nth-child(2), .arrange1 div:nth-child(2) {
+    background-color: rgb(170, 180, 112);
+}
+.arrange2 div:nth-child(3), .arrange1 div:nth-child(3) {
+    background-color: rgb(92, 70, 70);
+}
+.arrange2 div:nth-child(4) {
+    background-color: rgb(195, 0, 255);
+}
+.arrange2 div:nth-child(5) {
+    background-color:yellow;
+}
+.arrange2 div:nth-child(6) {
+    background-color: rgba(255, 166, 0, 0.883);
+}
+.arrange2 div:nth-child(7) {
+    background-color: rgb(0, 153, 255);
+}
+.arrange2 div:nth-child(8) {
+    background-color:rgb(255, 0, 191);
+}
+.arrange2 div:nth-child(9) {
+    background-color: rgba(208, 255, 0, 0.63);
+}

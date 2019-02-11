@@ -1,0 +1,53 @@
+@media screen and (max-width: 901px) {
+    .task h3{
+        color: gray;
+    }
+  }
+@media screen and (max-width: 900px) {
+    .task h3{
+        color: orange;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .task h3{
+        color: blue;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .task h3{
+        color: red;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .task h3{
+        color: purple;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .task h3{
+        color: orange;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .task h3{
+        color: yellow;
+    }
+  }
+  @media screen and (max-width: 300px) {
+    .task h3{
+        color: green;
+    }
+  }
+
+
+  @media screen and (max-width: 200px) {
+    .task h3{
+        color: blue;
+    }
+  }
+
+@media screen and (max-width: 100px) {
+    .task h3{
+        color: red;
+    }
+  }

@@ -1,0 +1,44 @@
+.t{
+  background: red;
+}
+.t.t1{
+  display: none;
+}
+.t.t2{
+  visibility: hidden;
+}
+
+.t.t3{
+  opacity: 0;
+}
+.t.t4{
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+.t.t5{
+  clip-path: polygon(0px 0px,0px 0px,0px 0px,0px 0px);
+}
+
+.t.t6{
+  position: absolute;
+  left: -9999px;
+}
+.t.t7{
+  left: -9999px;
+  position: relative
+}
+.t.t8{
+  left: -9999px;
+  position: absolute;
+}
+
+.t.t9{
+  transform: translateX(-9999px);
+}
+
+.t.t10{
+  clip:rect(0px, 0px, 0px, 0px);
+}
+
+

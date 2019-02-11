@@ -1,0 +1,63 @@
+.part1 p:first-of-type{
+    color: red;
+}
+.part1 span:first-of-type{
+    color: blue;
+}
+
+.part1 div.p:first-of-type{
+    color: green;
+}
+
+
+.part2 ol li{
+    color:red;   
+}
+ 
+
+.part2 ol li:nth-child(3n+3) {
+    color:green;   
+}
+ 
+.part3 div{
+    color: blue;
+}
+
+.part3 span.iAffectMyNextdiv{
+    color: red;
+}
+
+.part3 div:nth-child(7), .part3 div:last-child {  
+    color: red;
+  }
+
+.part4  div:nth-child(1){
+    color: red;
+}
+.part4 div:nth-child(2){
+    a{
+    color: yellow;
+    }
+}
+
+.part4 li:first-child {
+    a{
+    color: yellow;
+    }
+}
+.part4  li:last-child {
+    a{
+        color: red;
+    }
+}
+.part4 li:nth-last-child(2) {
+    a{
+    color: green;
+    }
+}
+.part4 p a{
+    color: yellow;
+}
+.part4 a{
+    color: red;
+}

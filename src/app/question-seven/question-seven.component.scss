@@ -1,0 +1,63 @@
+a[id = link2],  a[id = link4]{
+    color: red;
+}
+
+
+#colorchilderen {
+    // overider this for second problem 
+    div div:nth-child(1) {
+        div{
+        color: red;
+        }
+      }
+      div div div:nth-child(1) {
+        div{
+        color: yellow;
+        }
+      }
+      
+
+      div:nth-child(5),div:nth-child(4),div:nth-child(3),div:nth-child(2){
+
+        color: green;
+      }
+
+    
+}
+
+#bluecolor {
+    // for second problem
+     li:nth-child(2) {
+        color: blue;
+      }
+    //   li:nth-child(3) {
+    //     color: blue;   
+    // }
+//    ul li:nth-child(2) {
+//         color: blue;
+//       }
+}
+
+#evenodd {
+    // for third problem 
+    li:nth-child(even) {
+        color: red;   
+    }
+    li:nth-child(odd) {
+        color: green;   
+    }
+}
+
+#lastselector {
+    // for fourth problem 
+    li:last-child {
+        color: red;
+    }
+}
+
+    a:last-of-type {
+        color: red;
+    }
+    a:last-of-type:active {
+        color: yellow;
+    }

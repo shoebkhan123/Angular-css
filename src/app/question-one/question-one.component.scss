@@ -1,0 +1,25 @@
+input.ng-invalid.ng-touched {
+    border: 1px solid red;
+  }
+  input.ng-valid {
+    border: 1px solid green;
+  }
+    
+p{
+    color: red;
+}
+input:active,
+input:focus {
+    border: 1px solid green;
+}
+
+input:not(:placeholder-shown) {
+    border-color: green;
+  }
+
+  
+
+
+.jumbotron{
+    background-color: #EAECEC;
+}
